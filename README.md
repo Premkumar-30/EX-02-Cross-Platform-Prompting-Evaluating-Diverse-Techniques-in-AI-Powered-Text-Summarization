@@ -26,35 +26,21 @@ Summarize the following 500-word article on “The Basics of Blockchain Technolo
 
 Blockchain technology has become one of the most talked-about innovations of the 21st century. While it is often associated with cryptocurrencies like Bitcoin, its uses go far beyond digital money. At its core, blockchain is a new way of storing, verifying, and sharing information that is secure, transparent, and decentralized.
 
-# What is Blockchain?
-
 A blockchain is like a digital ledger, similar to a notebook, but instead of being kept by one person, it is shared across thousands of computers in a network. This ledger records transactions or pieces of information in units called “blocks.” Each block contains three important things: the data (such as transaction details), a timestamp, and a unique digital fingerprint called a “hash.” Once a block is filled, it is linked to the previous one, creating a chain—hence the name blockchain.
-
-# Why is it Secure?
 
 One of the most powerful features of blockchain is that once data is recorded, it cannot easily be changed. If someone tries to tamper with a block, the hash will no longer match, and the network will quickly detect the alteration. This immutability ensures trust among participants, as everyone can see and verify the same information.
 
-# Decentralization and Consensus
-
 Traditional systems, like banks, rely on a central authority to confirm transactions. Blockchain removes the need for such middlemen. Instead, the network of computers—called “nodes”—works together to verify new transactions. This agreement process is known as “consensus.” Different blockchains use different consensus mechanisms. For example, Bitcoin uses “Proof of Work,” where powerful computers solve complex puzzles to validate transactions. Other systems use “Proof of Stake,” which is more energy efficient.
-
-# Applications of Blockchain
 
 While cryptocurrency is the most famous application, blockchain can be used in many industries. In supply chain management, it can track the movement of goods from the factory to the customer, ensuring transparency and authenticity. In healthcare, it can store patient records securely and allow authorized doctors to access them quickly. Governments can use blockchain for secure voting systems, reducing the chances of fraud. Even artists and creators use it to protect their digital content through “NFTs” (non-fungible tokens).
 
-# Advantages of Blockchain
 
 Blockchain provides several benefits. It is transparent because all participants can view the same data. It is secure because of its cryptographic structure and decentralized design. It is also efficient, as it reduces the need for intermediaries, saving time and money. Additionally, it increases trust in digital transactions, which is vital in today’s online world.
 
-# Challenges
-
 Despite its potential, blockchain also faces challenges. Some systems consume large amounts of energy, especially those using Proof of Work. There are also concerns about privacy, scalability (handling many transactions at once), and government regulations. However, researchers and developers are actively working on solutions to these issues.
 
-# Conclusion
 
 Blockchain is more than just the foundation of cryptocurrencies—it is a groundbreaking technology that has the potential to transform industries by making data handling more secure, transparent, and efficient. As more organizations explore its uses, blockchain is likely to play a major role in shaping the future of the digital world.
-
-## Summaried Passage: 
 
 Blockchain is a digital system that records information securely and transparently without needing a central authority. Think of it as a shared online notebook where data is stored in “blocks” and linked together in a “chain.” Once information is added, it cannot be changed, which makes it trustworthy. Instead of banks or middlemen, blockchain uses a process called “consensus,” where many computers agree before new data is approved.
 
@@ -63,5 +49,5 @@ While most people know blockchain from Bitcoin, its uses are much wider. For exa
 Overall, blockchain makes digital transactions and data handling safer, faster, and more transparent, with potential to transform many industries.
 
 ## Result:
-  Thus the Original passage is successfully summarized.
+Thus the Original passage is successfully summarized.
 
