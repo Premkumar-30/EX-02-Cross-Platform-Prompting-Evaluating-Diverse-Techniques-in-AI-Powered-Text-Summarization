@@ -50,11 +50,9 @@ Overall, blockchain makes digital transactions and data handling safer, faster, 
 
 ## Summarized passage:
 
-Blockchain is a modern way of recording and sharing information securely. Instead of being stored in one place, the data is shared across many computers, making it decentralized and hard to hack. Information is kept in “blocks” that are linked together in a “chain.” Once data is added, it cannot be changed, which builds trust. To approve new data, the network of computers agrees through a process called consensus, replacing the need for middlemen like banks.
+Blockchain is a modern way of storing and sharing information that is secure, transparent, and does not rely on a central authority like a bank. It works like a shared digital notebook, where data is stored in blocks and linked in a chain. Once information is added, it cannot be changed, making it highly trustworthy. Instead of one authority, many computers (called nodes) work together to approve new information through a process called “consensus.”
 
-Although blockchain is best known for powering cryptocurrencies such as Bitcoin, it has many other uses. In supply chains, it helps track products, such as food, from farms to stores, ensuring safety and freshness. In healthcare, it can securely store patient records, allowing doctors quick but safe access.
-
-Overall, blockchain is a transparent, secure, and efficient way to manage digital information.
+While blockchain is best known for powering cryptocurrencies like Bitcoin, it has many other uses. For example, in supply chains, it tracks products from factories to stores, ensuring safety and authenticity. In healthcare, it stores patient records securely, so doctors can access accurate information. By improving security, transparency, and efficiency, blockchain has the potential to transform many industries in the future.
 
 
 ## Result:
