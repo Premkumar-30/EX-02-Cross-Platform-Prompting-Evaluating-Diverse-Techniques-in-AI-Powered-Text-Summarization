@@ -3,6 +3,11 @@
 ## AIM
 To evaluate and compare the effectiveness of prompting techniques (zero-shot, few-shot, chain-of-thought, role-based) across different AI platforms (e.g., ChatGPT, Gemini, Claude, Copilot) in a specific task: text summarization.
 
+### REG.NO: 212223060003
+
+### NAME: ABINANDHAN G
+
+
 ## Scenario:
 You are part of a content curation team for an educational platform that delivers quick summaries of research papers to undergraduate students. Your task is to summarize a 500-word technical article on "The Basics of Blockchain Technology" using multiple AI platforms and prompting strategies.
 
@@ -18,43 +23,128 @@ Speed
 
 User experience
 
-## Prompt:
+## Algorithm
 
-Summarize the following 500-word article on “The Basics of Blockchain Technology” in 120–150 words for undergraduate students. Keep it clear and beginner-friendly. Please revise the summary to make it even simpler and include at least two real-world examples of blockchain applications.
+1. **Article Selection**
+   Select a \~500-word technical article titled *"The Basics of Blockchain Technology"*.
+````
+The Basics of Blockchain Technology
 
-## Original Passage:
+In recent years, blockchain technology has gained significant attention for its potential to revolutionize industries beyond its original use in cryptocurrencies like Bitcoin. At its core, blockchain is a decentralized, distributed ledger system that securely records transactions across a network of computers. What makes blockchain unique is its ability to ensure transparency, security, and immutability without the need for a central authority.
 
-Blockchain technology has become one of the most talked-about innovations of the 21st century. While it is often associated with cryptocurrencies like Bitcoin, its uses go far beyond digital money. At its core, blockchain is a new way of storing, verifying, and sharing information that is secure, transparent, and decentralized.
+What is Blockchain?
 
-A blockchain is like a digital ledger, similar to a notebook, but instead of being kept by one person, it is shared across thousands of computers in a network. This ledger records transactions or pieces of information in units called “blocks.” Each block contains three important things: the data (such as transaction details), a timestamp, and a unique digital fingerprint called a “hash.” Once a block is filled, it is linked to the previous one, creating a chain—hence the name blockchain.
+A blockchain can be thought of as a chain of digital “blocks,” each containing a record of transactions. These blocks are linked together in chronological order using cryptographic techniques. Once a block is added to the chain, the information inside it cannot be altered without changing all subsequent blocks, making the system resistant to tampering or fraud.
 
-One of the most powerful features of blockchain is that once data is recorded, it cannot easily be changed. If someone tries to tamper with a block, the hash will no longer match, and the network will quickly detect the alteration. This immutability ensures trust among participants, as everyone can see and verify the same information.
+Key Features of Blockchain
 
-Traditional systems, like banks, rely on a central authority to confirm transactions. Blockchain removes the need for such middlemen. Instead, the network of computers—called “nodes”—works together to verify new transactions. This agreement process is known as “consensus.” Different blockchains use different consensus mechanisms. For example, Bitcoin uses “Proof of Work,” where powerful computers solve complex puzzles to validate transactions. Other systems use “Proof of Stake,” which is more energy efficient.
+Decentralization – Traditional databases are usually controlled by a central entity, but blockchain distributes the ledger across many nodes (computers). Every participant in the network has a copy of the blockchain, ensuring no single point of failure.
 
-While cryptocurrency is the most famous application, blockchain can be used in many industries. In supply chain management, it can track the movement of goods from the factory to the customer, ensuring transparency and authenticity. In healthcare, it can store patient records securely and allow authorized doctors to access them quickly. Governments can use blockchain for secure voting systems, reducing the chances of fraud. Even artists and creators use it to protect their digital content through “NFTs” (non-fungible tokens).
+Transparency – Transactions recorded on the blockchain are visible to all participants. While identities can remain anonymous, the transaction history is permanent and accessible, which helps build trust.
+
+Immutability – Once data is recorded on a blockchain, it cannot be changed or deleted. This permanence reduces the risk of fraud and enhances accountability.
+
+Security – Blockchain uses cryptographic algorithms to secure transactions and control access. Each block is connected to the previous one using a unique hash, making it extremely difficult to alter data.
+
+How Blockchain Works
+
+When a transaction occurs, it is verified by participants in the network through a process called consensus. Different blockchains use different consensus mechanisms, such as Proof of Work (PoW) or Proof of Stake (PoS). Once verified, the transaction is grouped into a block, which is then added to the chain in a way that ensures it cannot be modified without network-wide agreement.
+
+Applications of Blockchain
+
+While blockchain is best known for enabling cryptocurrencies, its applications extend to many fields:
+
+Finance – Beyond digital currencies, blockchain can streamline cross-border payments, reduce fraud, and increase transparency in banking.
+
+Supply Chain Management – Companies can track goods from origin to destination, ensuring authenticity and reducing counterfeiting.
+
+Healthcare – Patient records can be securely stored and shared across providers while maintaining privacy and accuracy.
+
+Voting Systems – Blockchain-based voting can increase transparency, reduce fraud, and enhance trust in democratic processes.
+
+Smart Contracts – These are self-executing contracts with conditions directly written into code, enabling automated and trustless transactions.
+
+Challenges in Blockchain
+
+Despite its advantages, blockchain faces several challenges. Scalability remains an issue, as processing a large number of transactions can be slow and energy-intensive, especially in PoW systems. Regulatory uncertainties and concerns about data privacy also pose hurdles to widespread adoption. Additionally, while immutability is a strength, it can also be a weakness if incorrect or fraudulent data is entered into the system.
+
+Conclusion
+
+Blockchain technology represents a transformative shift in how data and transactions are managed. By combining decentralization, transparency, and security, it has the potential to disrupt industries ranging from finance to healthcare. However, challenges related to scalability, regulation, and energy consumption must be addressed before blockchain can achieve its full potential. As research and innovation continue, blockchain is likely to become a foundational technology for the digital future.
+````
+
+3. **Prompting Strategies Definition**
+   Prepare the following four prompting strategies:
+
+   * **Zero-shot**: Directly ask the model to summarize without examples.
+   * **Few-shot**: Provide 2–3 examples of summaries for similar technical texts before asking for the summary.
+   * **Chain-of-Thought**: Prompt the model to explain or break down the text logically before summarizing.
+   * **Role-based**: Instruct the model to act as a specific role (e.g., “a university professor summarizing for freshmen”).
+
+4. **Platform Selection**
+   Use the following AI platforms:
+
+   * ChatGPT (OpenAI)
+   * Gemini (Google)
+   * Claude (Anthropic)
+   * Copilot (Microsoft)
+
+5. **Execution**
+   For each platform:
+
+   * Apply each prompting strategy using the same input article.
+   * Record the output summary.
+   * Note time taken to generate the summary.
+```
+Summary:
+
+    Blockchain technology is a decentralized digital ledger that records transactions securely across a network of computers.
+    Unlike traditional databases controlled by one authority, blockchain distributes identical copies of data to many nodes, reducing the risk of failure or manipulation.
+    Each transaction is stored in a “block” and linked with others using cryptography, making the chain transparent, secure, and nearly impossible to alter.
+    Transactions are verified through consensus methods like Proof of Work or Proof of Stake. While first used for cryptocurrencies such as Bitcoin, blockchain now benefits industries like finance, supply chain, healthcare, and even voting systems.
+    It also enables “smart contracts,” which automatically execute coded agreements. Despite its promise, blockchain faces challenges in scalability, regulation, and energy use. Still, it is seen as a key technology for the digital future.
+```
+
+6. **Evaluation Criteria**
+   Evaluate each generated summary using the following:
+
+   * **Accuracy**: Does the summary correctly capture the main points of the article?
+   * **Coherence**: Is the summary logically structured and easy to follow?
+   * **Simplicity**: Is the language accessible for undergraduate students?
+   * **Speed**: How fast is the response?
+   * **User Experience**: Was the interface intuitive, and was the output easy to copy/save?
+
+7. **Scoring & Analysis**
+
+   * Assign scores (1 to 5) for each criterion across all combinations.
+   * Tabulate results for comparison.
+   * Identify the best-performing strategy-platform combination.
+
+---
+
+## Result
+
+| Platform | Prompt Type      | Accuracy | Coherence | Simplicity | Speed | UX | Total (/25) |
+| -------- | ---------------- | -------- | --------- | ---------- | ----- | -- | ----------- |
+| ChatGPT  | Zero-shot        | 4        | 4         | 4          | 5     | 5  | 22          |
+| ChatGPT  | Few-shot         | 5        | 5         | 5          | 4     | 5  | 24          |
+| ChatGPT  | Chain-of-Thought | 5        | 5         | 4          | 3     | 5  | 22          |
+| ChatGPT  | Role-based       | 5        | 5         | 5          | 4     | 5  | 24          |
+| Gemini   | Zero-shot        | 3        | 3         | 3          | 5     | 4  | 18          |
+| Gemini   | Few-shot         | 4        | 4         | 4          | 4     | 4  | 20          |
+| Claude   | Chain-of-Thought | 5        | 5         | 5          | 4     | 4  | 23          |
+| Claude   | Role-based       | 5        | 5         | 5          | 4     | 5  | 24          |
+| Copilot  | Zero-shot        | 3        | 3         | 3          | 5     | 4  | 18          |
+| Copilot  | Few-shot         | 4        | 4         | 4          | 4     | 4  | 20          |
+
+### PICTORIAL GRAPH
+<img width="2400" height="1600" alt="image" src="https://github.com/user-attachments/assets/223662a6-cf71-409a-b2c1-8e723b13dfde" />
 
 
-Blockchain provides several benefits. It is transparent because all participants can view the same data. It is secure because of its cryptographic structure and decentralized design. It is also efficient, as it reduces the need for intermediaries, saving time and money. Additionally, it increases trust in digital transactions, which is vital in today’s online world.
 
-Despite its potential, blockchain also faces challenges. Some systems consume large amounts of energy, especially those using Proof of Work. There are also concerns about privacy, scalability (handling many transactions at once), and government regulations. However, researchers and developers are actively working on solutions to these issues.
-
-
-Blockchain is more than just the foundation of cryptocurrencies—it is a groundbreaking technology that has the potential to transform industries by making data handling more secure, transparent, and efficient. As more organizations explore its uses, blockchain is likely to play a major role in shaping the future of the digital world.
-
-Blockchain is a digital system that records information securely and transparently without needing a central authority. Think of it as a shared online notebook where data is stored in “blocks” and linked together in a “chain.” Once information is added, it cannot be changed, which makes it trustworthy. Instead of banks or middlemen, blockchain uses a process called “consensus,” where many computers agree before new data is approved.
-
-While most people know blockchain from Bitcoin, its uses are much wider. For example, companies use it in supply chains to track food from farms to stores, ensuring freshness and safety. In healthcare, it can securely store patient records so doctors can access accurate information without privacy risks.
-
-Overall, blockchain makes digital transactions and data handling safer, faster, and more transparent, with potential to transform many industries.
-
-## Summarized passage:
-
-Blockchain is a modern way of storing and sharing information that is secure, transparent, and does not rely on a central authority like a bank. It works like a shared digital notebook, where data is stored in blocks and linked in a chain. Once information is added, it cannot be changed, making it highly trustworthy. Instead of one authority, many computers (called nodes) work together to approve new information through a process called “consensus.”
-
-While blockchain is best known for powering cryptocurrencies like Bitcoin, it has many other uses. For example, in supply chains, it tracks products from factories to stores, ensuring safety and authenticity. In healthcare, it stores patient records securely, so doctors can access accurate information. By improving security, transparency, and efficiency, blockchain has the potential to transform many industries in the future.
+> **Best Performing Combination:**
+> **Claude + Role-based Prompting** and **ChatGPT + Few-shot Prompting** both scored **24/25**, showing high effectiveness in summarizing complex content in a simple and structured way for undergraduates.
 
 
-## Result:
-Thus the Original passage is successfully summarized.
+
 
