@@ -48,6 +48,15 @@ While most people know blockchain from Bitcoin, its uses are much wider. For exa
 
 Overall, blockchain makes digital transactions and data handling safer, faster, and more transparent, with potential to transform many industries.
 
+## Summarized passage:
+
+Blockchain is a modern way of recording and sharing information securely. Instead of being stored in one place, the data is shared across many computers, making it decentralized and hard to hack. Information is kept in “blocks” that are linked together in a “chain.” Once data is added, it cannot be changed, which builds trust. To approve new data, the network of computers agrees through a process called consensus, replacing the need for middlemen like banks.
+
+Although blockchain is best known for powering cryptocurrencies such as Bitcoin, it has many other uses. In supply chains, it helps track products, such as food, from farms to stores, ensuring safety and freshness. In healthcare, it can securely store patient records, allowing doctors quick but safe access.
+
+Overall, blockchain is a transparent, secure, and efficient way to manage digital information.
+
+
 ## Result:
 Thus the Original passage is successfully summarized.
 
